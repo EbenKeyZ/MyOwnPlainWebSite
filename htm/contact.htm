@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Contact Me|-|OEs Web</title>
+	</head>
+
+	<body>
+		<h1>Onkyer Entertainment Studios Website</h1>
+
+		<!--Beginning of Web page menu code-->
+		<div>
+			<ul>
+				<li><a href="../index.html">Home</a></li><!--For Home Tab-->
+				<li><a href="gallery.htm">Gallery</a></li><!--For Gallery Tab-->
+				<li><a href="contact.htm">Contact Me</a></li><!--For Contact me tab-->
+				<li><a href="about_me.htm">About Me</a></li><!--For About me Tab-->
+			</ul>
+		</div>
+		<!--Ending of Web page menu code-->
+
+		<!-- Beginning of Contact Me Form-->
+		<div>
+			<fieldset>
+				<legend><h2>Contact Me Form</h2></legend>
+				<form action=".php" method="POST">
+					<label>First Name:*</label><Br/>
+					<input type="text" name="f_name" maxlength="16" size="80" required><Br/><Br/>
+					
+					<label>Middle Name:*</label><Br/>
+					<input type="text" name="m_name" maxlength="16" size="80"><Br/><Br/>
+
+					<label>Last Name:*</label><Br/>
+					<input type="text" name="l_name" maxlength="16" size="80" required><Br/><Br/>
+
+					<label>Email Address:*</label><Br/>
+					<input type="email" name="email" maxlength="40" size="80" required><Br/><Br/>
+
+					<label>Phone Number:*</label><Br/>
+					<input type="tel" name="p_contact" maxlength="10" size="80" required><Br/><Br/>
+
+					<label>Comments:</label><Br/>
+					<textarea name="comment"></textarea><Br/><Br/>
+
+					<input type="submit" value="Submit" size="40">
+				</form>
+			</fieldset>
+		</div>
+		<!-- Ending of Contact Me Form-->
+
+	</body>
+</html>
